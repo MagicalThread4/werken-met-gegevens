@@ -16,4 +16,4 @@ totaalpersoonenkost = prijsperpersoon * totaalpersoonen
 
 totaalprijs = vrkamer + totaalpersoonenkost
 
-print (totaalprijs)
+print ("Dit geweldige dagje-uit met 4 mensen in de Speelhal met 45 minuten VR kost je maar " + str(totaalprijs) + " euro ")

@@ -16,6 +16,6 @@ bedrag1 = hoeveelcroissantjes * prijscroissantjes
 bedrag2 = hoeveelstokbroden * prijsstokbroden 
 korting = waardenkortingsbonnen * hoeveelkortingsbonnen 
 
-total = bedrag1 + bedrag2 - korting 
+totaal = bedrag1 + bedrag2 - korting 
 
-print(total)
+print(" De feestlunch kost je bij de bakker " + str(totaal) + " voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn! ")
